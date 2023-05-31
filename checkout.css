@@ -1,0 +1,281 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, #e0ffff, #87ceeb);
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  background: linear-gradient(to bottom, #e0ffff, #87ceeb);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.adet {
+  text-align: center;
+  border: 1px solid black;
+  padding: 0.5rem;
+  width: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.product-details {
+  margin-left: 1rem;
+}
+
+.adet button {
+  margin-right: 10px;
+}
+
+.adet span {
+  margin: 0 10px;
+}
+
+.product-details p {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.product-details button {
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.product-details button {
+  background-color: #86c6ff;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.product-details button:hover {
+  transform: scale(0.97);
+}
+
+.product-details span {
+  padding-right: 10px;
+}
+
+.product-details span:last-child {
+  color: red;
+  text-decoration: line-through;
+}
+
+.product-details .total span {
+  color: black;
+  text-decoration: none;
+}
+
+.adet span {
+  font-weight: bold;
+}
+
+.buy-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.buy-detail p {
+  margin: 0;
+}
+
+.buy-detail p:first-child {
+  font-weight: bold;
+}
+
+.buy-detail p:last-child {
+  font-weight: bold;
+  color: blue;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  background-image: url(magaza.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.total span {
+  font-weight: bold;
+}
+
+/* Diğer stiller buraya eklenebilir */
+
+
+#container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+.product img {
+  width: 200px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.product-details {
+  flex: 1;
+}
+
+.product-details p {
+  margin: 0;
+}
+
+.product-details p strong {
+  font-weight: bold;
+}
+
+.product-details p span {
+  font-size: 14px;
+  color: #888;
+}
+
+.adet {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.adet button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #888;
+  padding: 5px;
+}
+
+.adet span {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.buy-detail {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.buy-detail p {
+  margin: 0;
+}
+
+.buy-detail p:last-child {
+  font-weight: bold;
+}
+
+.remove {
+  background-color: #ff5555;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove:hover {
+  background-color: #ff0000;
+}
+
+/* Ekstra stil özellikleri */
+
+main {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+#container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.total {
+  margin-top: 10px;
+}
+
+.buy-detail {
+  margin-top: 30px;
+}
+
+.yan{
+
+text-decoration: line-through;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="checkout.css" />
+  </head>
+  <body>
+    <main>
+      <div id="container">
+        <section>
+          <h2>NIKE</h2>
+
+          <div class="product">
+            <img src="ayakkabi.jpg" alt="ayakkabi" />
+            <div class="product-details">
+              <p>
+                Fiyat: <strong> 50 </strong>
+                <span class="yan" > &nbsp;60&nbsp;</span>
+              </p>
+              <p class="total">Total Price: <span> 50 </span></p>
+              <button class="remove">Remove</button>
+            </div>
+          </div>
+
+          <div class="adet">
+            <button><i class="fas fa-minus"></i></button>
+            <span>1</span>
+            <button><i class="fas fa-plus"></i></button>
+          </div>
+        </section>
+
+        <section>
+          <h2>GUCCI</h2>
+          <div class="product">
+            <img src="canta.jpeg" alt="canta" />
+            <div class="product-details">
+              <div>
+                Fiyat: <strong>90</strong>
+                <span class="yan">&nbsp;120&nbsp;</span>
+              </div>
+              <p class="total">Total Price: <span> 90 </span></p>
+
+              <button class="remove">Remove</button>
+            </div>
+          </div>
+          <div class="adet">
+            <button><i class="fas fa-minus"></i></button>
+            <span>1</span>
+            <button><i class="fas fa-plus"></i></button>
+          </div>
+        </section>
+
+        <section>
+          <h2>RAYBAN</h2>
+          <div class="product">
+            <img src="gozluk.jpeg" alt="gozluk" />
+            <div class="product-details">
+              <p>
+                Fiyat: <strong>65</strong>
+                <span class="yan"> &nbsp;60&nbsp;</span>
+              </p>
+              <p class="total">Total Price: <span> 65 </span></p>
+              <button class="remove">Remove</button>
+            </div>
+          </div>
+          <div class="adet">
+            <button><i class="fas fa-minus"></i></button>
+            <span>1</span>
+            <button><i class="fas fa-plus"></i></button>
+          </div>
+        </section>
+
+        <section>
+          <h2>SAMSUNG</h2>
+
+          <div class="product">
+            <img src="telefon.png" alt="ayakkabi" />
+            <div class="product-details">
+              <p>
+                Fiyat: <strong> 300 </strong>
+                <span class="yan"> &nbsp;450&nbsp;</span>
+              </p>
+              <p class="total">Total Price: <span> 50 </span></p>
+              <button class="remove">Remove</button>
+            </div>
+          </div>
+
+          <div class="adet">
+            <button><i class="fas fa-minus"></i></button>
+            <span>1</span>
+            <button><i class="fas fa-plus"></i></button>
+          </div>
+        </section>
+
+        <div class="buy-detail" id="cart-subtotal">
+          <p>Subtotal=</p>
+          <p>0</p>
+        </div>
+        <div class="buy-detail" id="cart-tax">
+          <p>Tax(%18)=</p>
+          <p>0</p>
+        </div>
+        <div class="buy-detail" id="cart-shipping">
+          <p>Shipping=</p>
+          <p>0</p>
+        </div>
+        <div class="buy-detail" id="cart-total">
+          <p>Total=</p>
+          <p>0</p>
+        </div>
+      </div>
+    </main>
+
+    <script src="checkout.js"></script>
+  </body>
+</html>
